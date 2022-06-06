@@ -2,10 +2,10 @@ n1 = int(input('Digite um numero: ')) #exercicio 05
 print(f'O numero digitado foi {n1}, o seu antecessor é {n1-1} e o sei sucessor é {n1+1}')
 
 n2 = int(input('Digite um segundo numero: ')) #exercicio6
-print(f'O Numero digitado foi: {n2}, o dobro deste numero é {n2*2}, o seu triplo é {n2*3} e sua raiz quadrada é {n2**(1/2)}')
+print(f'O Numero digitado foi: {n2}, o dobro deste numero é {n2*2}, o seu triplo é {n2*3} e sua raiz quadrada é {n2**(1/2):.2f}')
 
-n3 = int(input('Digite a nota 1: ')) #exercicio7
-n4 = int(input('Digite a nota 2: '))
+n3 = float(input('Digite a nota 1: ')) #exercicio7
+n4 = float(input('Digite a nota 2: '))
 print(f'A média do aluno é: {(n3+n4)/2}')
 
 n5 = int(input('Digite um valor em metros: ')) #exercicio8
