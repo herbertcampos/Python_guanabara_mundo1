@@ -33,6 +33,6 @@ quinzeporcento = (n11*15)/100
 valorsalario = n11+quinzeporcento
 print(f'O valor do salario com 15% de aumento é de: {valorsalario}')
 
-n12 = float(input('Digite a temperatura em ºC:')) #Exercicio14
+n12 = float(input('Digite a temperatura em ºC:')) #Exercicio014
 convertetemp = ((n12*9)/5)+32
 print(f'{n12}ºC equivale à {convertetemp:.2f}ºF')
