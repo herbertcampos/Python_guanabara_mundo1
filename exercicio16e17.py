@@ -9,7 +9,7 @@ catb = float(input('Digite o valor do Cateto b:'))
 hipa = ((cata ** 2) + (catb ** 2)) ** (1/2)
 print(f'O valor da hipotenusa é: {hipa}')
 hipb = math.pow(cata,2) + math.pow(catb,2)
-hipbfinal = hipb ** (1/2) #muita papagaiada fazer assim mano...
+hipbfinal = hipb ** (1/2) #muita papagaiada fazer assim mano..
 print(f'O valor da hipotenusa é: {hipbfinal}')
 hipc = math.hypot(cata, catb)
 print(f'O valor da hipotenusa é: {hipc}')
